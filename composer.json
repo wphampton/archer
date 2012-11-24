@@ -1,0 +1,26 @@
+{
+    "name": "wes/greenhorn",
+    "description": "Learning Git, Behat and Mink",
+    "authors": [
+        {
+            "name": "Wes Hampton",
+            "email": "wphampton@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "require": {
+	"behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4.*@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+	"behat/mink-sahi-driver": "*",
+	"symfony/http-kernel": "2.1.*",
+	"behat/symfony2-extension": "*",
+	"behat/yii-extension": "*"
+
+    }
+}
